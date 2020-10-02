@@ -92,7 +92,7 @@ If you MAC address is `da:19:c8:7a:6d:f4` or `a2:ce:c4:4a:ae:e4` then do steps b
 
 `rm /boot/boot.scr`
 
-`pacman -Sy uboot-rock64`		when prompted, press `y` and hit `enter` to write the latest bootloader to the eMMC Module (read the scripts output and check if device matches, if it does no match your eMMC-Module then you need to copy the filesmanually)
+`pacman -Sy uboot-rock64`		when prompted, press `y` and hit `enter` to write the latest bootloader to the eMMC Module (read the scripts output and check if device matches, if it does no match your eMMC-Module then you need to copy the files manually)
 
 `reboot`
 
@@ -120,7 +120,7 @@ If you MAC address is `da:19:c8:7a:6d:f4` or `a2:ce:c4:4a:ae:e4` then do steps b
 
 `nano /etc/resolv.conf`			should be nameserver 192.168.1.xxx
 
-`reboot`					once board is up, check with `ifconfig` for success		
+`reboot`				once board is up, check with `ifconfig` for success		
 
 #### 16.) Change user from “alarm” to your choice and enable ‘sudo’ comand (log-in as root).
 
@@ -143,7 +143,7 @@ exit and log-in as youruser and change `passwd` from alarm to yours
 
 `sudo nano /etc/locale.gen`			uncomment en_GB.UTF-8 UTF-8
 
-`locale-gen`				to generate British English locale file
+`locale-gen`					to generate British English locale file
 
 	
 #### Done, enjoy your setup.
