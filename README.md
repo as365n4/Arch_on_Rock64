@@ -92,7 +92,7 @@ If you MAC address is `da:19:c8:7a:6d:f4` or `a2:ce:c4:4a:ae:e4` then do steps b
 
 `rm /boot/boot.scr`
 
-`pacman -Sy uboot-rock64`		when prompted, press y and hit enter to write the latest bootloader to the eMMC Module (read the scripts output and check if device matches, if it does no match your eMMC-Module then you need to copy the filesmanually)
+`pacman -Sy uboot-rock64`		when prompted, press `y` and hit `enter` to write the latest bootloader to the eMMC Module (read the scripts output and check if device matches, if it does no match your eMMC-Module then you need to copy the filesmanually)
 
 `reboot`
 
