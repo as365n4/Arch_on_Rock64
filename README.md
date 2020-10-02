@@ -57,7 +57,7 @@ default last sector, then write the partition table and exit by typing `w`
 #### 10.) Install eMMC Module onto Rock64 Board, connect HDMI, ethernet, USB Keyboard and power up, the System is setup with 2 users “alarm” and “root”, log-in details as below:
 	
 	user:	alarm		password:	alarm
-	    	root				      root
+	    	root				root
 
 Change generic root password to your own version (log-in as root).
 	
