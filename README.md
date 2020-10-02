@@ -2,7 +2,7 @@
 
 #### 1.)  Find device designation of eMMC Module and unmount
 
-`lsblk`			device sdX should match the size of your eMMC Module
+`lsblk`			device `sdX` should match the size of your eMMC Module
 
 `sudo umount /dev/sdX1`   unmount the eMMC Module
 
