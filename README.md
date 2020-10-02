@@ -77,8 +77,8 @@ If you MAC address is `da:19:c8:7a:6d:f4` or `a2:ce:c4:4a:ae:e4` then do steps b
 	MACAddress=da:19:c8:7a:6d:f4
 
 	[Link]
-	MACAddress=da:19:c8:1a:1d:f1		change the last 3 bits to your liking,
-	NamePolicy=kernel database onboard slot path	DO NOT change the first 3 bits (reserved Manufacturer)
+	MACAddress=da:19:c8:1a:1d:f1				change the last 3 bits to your liking,
+	NamePolicy=kernel database onboard slot path		DO NOT change the first 3 bits (reserved for Manufacturer)
 
 `reboot`     once board is up, check with ip link show eth0 for success
 
