@@ -126,7 +126,7 @@ If you MAC address is `da:19:c8:7a:6d:f4` or `a2:ce:c4:4a:ae:e4` then do steps b
 
 	id alarm
 	usermod -l youruser alarm
-	usermod -d /home/ youruser -m fjb
+	usermod -d /home/youruser -m youruser
 	groupmod -n youruser alarm
 	id youruser
 	ls -ld /home/ youruser
