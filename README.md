@@ -129,7 +129,7 @@ If you MAC address is `da:19:c8:7a:6d:f4` or `a2:ce:c4:4a:ae:e4` then do steps b
 	usermod -d /home/youruser -m youruser
 	groupmod -n youruser alarm
 	id youruser
-	ls -ld /home/ youruser
+	ls -ld /home/youruser
 
 `pacman -S sudo`
 
